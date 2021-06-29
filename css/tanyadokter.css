@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
+{
+  margin : 0;
+  padding: 0;
+  font-family: 'Poopins', sans-serif, 'Nunito';
+}
+p{
+  font-size: 12px;
+}
+
+.navbar{
+  background-color: #00AAA9;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  padding: 10px 15px;
+  font-size: 18px;
+
+}
+.nav-item a{
+  color: white;
+  padding: 0px 20px;
+  margin: 10px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 20px;
+  
+}
+.nav-item a:hover{
+  color: yellow;
+  border-radius: 20px;
+
+}
+.navbar-brand{
+  color: #D2FECB;
+  font-size: 20px;
+  margin-left: 3px;
+  font-family: 'Reem Kufi';
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+.nav-link::after{
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width .3s;
+}
+.nav-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+/*=====================slide================*/
+.carousel-item img{
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+/*===============info========================*/
+.info img{
+  width: 30px;
+}
+.info p{
+  margin-left: 40px;
+  margin-top: -30px;
+}
+.info button{
+  margin-left: 10px;
+}
+/*pengaturan widget sidebar*/
+.widged{
+  width       : 99%;
+  background-bottom : 5px;
+  background      : #ffffff;
+  border-top      : 1px solid #DFDFDF;
+  border-bottom   : 1px solid #DFDFDF;
+  border-right    : 1px solid #DFDFDF;
+  border-left     : 1px solid #DFDFDF;
+  font-size     : 100%;
+  margin        : 0px 0px 5px 0px;
+}
+/*pengaturan ukuran iklan dg gambar pada widged*/
+.gambar{
+  width       : 99%;
+  height        : 150px;
+}
+
+
+/*pengaturan huruf judul widged*/
+.judulwidged{
+  background      : #d74006;
+  padding       : 5px 10px 5px 10px;
+  margin        : 0px 0px 0px 0px;
+  text-align      : center;
+  color       : white;
+  font-weight     : bold;
+  font-size     : 15px;
+  margin-bottom   : 5px;
+}
+.widged ul{
+  margin        : 0px 0px 0px 0px;
+  padding       : 0px 0px 0px 0px;
+  list-style-type   : none;
+}
+.widged li{
+  padding         : 0px 0px 0px 0px;         /*top right bottom left*/
+  background-position : left;
+  background-repeat : no-repeat;
+  color         : #333333;
+}
+.widged li a{
+  color       : #333333;
+  border-bottom   : 1px dotted #cccccc;
+  text-decoration   : none;
+  display       : block;
+  margin-bottom   : 5px;
+  padding       : 4px 5px 3px 10px;
+} 
+.widged li a:hover{
+  color       : blue;
+}
+
+/*=============card===============*/
+.card-body img{
+  width: 90px;
+  border-radius: 40px;
+}/*
+.card a{
+  width: 80px;
+}*/
+/*.card a img{
+  width: 100px;
+  margin-left: 70px;
+}*/
+.row .col .kartu img{
+  width: 100px;
+  margin-left: 70px;
+  border: 1px solid;
+}
+
+.card-body .btn{
+  margin-left: 45px;
+}
+footer {
+  position: relative;
+  padding: 20px 0px 0px;
+  background: #067979; 
+}
+@media screen and (max-width: 767.98px) {
+  footer {
+    padding: 20px 0 0; 
+    } 
+}
+footer .copy-right {
+  width: relative;
+  padding: 12px 0px;
+  background-color: #021f0a;
+  border-top: solid 1px #dfdfdf;
+  font-size: 12px;
+  color: white;
+  text-align: center; 
+}
+footer .copy-right a {
+  color: #a5f01e;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 .3125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer .footer-content {
+  margin: 20px 0px;
+  display: block;
+  width: 100%;
+  color: white; 
+}
+footer .footer-content p {
+  font-size: 16px;
+  padding: 10px 0px;
+  line-height: 4px;
+  margin: 0px; 
+}
+footer .footer-content ul li {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #0e2e06;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin: 5px 3px 0px 0px; 
+}
+footer .footer-content ol li {
+    padding: 5px 0px;
+    position: relative; 
+}
+footer .footer-content ol li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 0px; 
+}
+footer .footer-content ol li a i {
+  padding-right: 10px; 
+}
+footer .footer-content h2 {
+  content: #FFC107;
+  font-size: 20px;
+  position: relative;
+  padding: 5px 0px;
+  font-weight: 600; 
+}
+footer .footer-content .form-group {
+  position: relative; 
+}
+footer .footer-content .form-group .form-control {
+  height: 40px;
+  padding-right: 40px;
+  text-overflow: ellipsis; 
+}
+footer .footer-content .form-group i {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: white;
+  background: #a5f01e;
+  text-align: center;
+  top: 0;
+  right: 0; 
+}

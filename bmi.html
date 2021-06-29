@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bmistyle.css">
+    <!-- favicon -->
+    <link href="LOGO.png" rel="icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom fonts for this template-->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+
+    
+    
+
+    <title>Cek BMI&BMR</title>
+  </head>
+  <body>
+  </body>
+ <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+      <div class="container-fluid">
+    
+        <a class="navbar-brand font-weight-bold ls-2" href="index.html"><img src="image/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container" style="margin-left: 15%">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active mr-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="info.html">Info</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="tanyadokter.html">Tanya Dokter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="shop.html">Toko</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="bmi.html"><font color="#FFC107">Cek BMI & BMR</font></a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                            
+                <!-- <h4><a href="#"><i class="fas fa-cart-plus text-white mt-2" style="margin-right: 10px"></i></a>    </h4>
+                <button class="btn btn-outline-warning" type="submit" style="width: 6rem; font-size: 18px; letter-spacing: 2px; align-items: center;">Login</button> -->
+              
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar tutup -->
+
+    <!-- content -->
+    <img src="image/shop/fix.jpg" width="100%" height="400 px" class="img-top mt-5 mb-3" alt="...">
+
+    <div class="row no-gutter">
+        <div class="col-md-6 bg-white">
+            <div class="kotak_login">
+        <p class="tulisan_login" style="text-decoration: underline;"><h2>CEK DISINI</h2></p>
+ 
+        <form name="Kalkulator">
+            <label>Gender</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male">Perempuan</label> &emsp; 
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="female">Laki-Laki</label><br>
+
+            <label>Usia</label>
+            <input type="text" name="usia" id="usia" class="form_login">
+
+            <div>
+                <label>Berat Badan (kg)</label>
+            <input type="text" name="berat" id="berat" class="form_login">
+ 
+            <label>Tinggi Badan (cm)</label>
+            <input type="text" name="tinggi" id="tinggi" class="form_login">
+            <center>
+                
+                <a href="#" class="btn btn-success" onclick="hitung()">Hitung</a>
+                <button type="reset" class="btn btn-danger">Hapus</button>
+                <!-- <input type="reset" class="reset" value="Hapus"> -->
+            </center><br>
+
+            <label>BMR Anda Adalah</label>
+            <div id="bmr"></div>
+            <label>BMI Anda Adalah</label>
+            <div id="bmi"></div>
+            <label>Keterangan</label>
+            <div id="keterangan"></div>
+            </div>
+            
+ 
+            <br/>
+            <script type="text/javascript" src="js/bmi.js"></script>
+        </form>
+        
+    </div>
+        </div>
+
+        <div class="col-md-6 bg-white">
+            <div class="container1">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="image/shop/bmi2.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Apa itu BMI?</h2>
+                        <p>Body Mass Index (BMI) atau yang sering dikenal dengan Indeks Massa Tubuh (IMT) adalah nilai ukur untuk mengetahui status gizi seseorang berdasarkan berat dan tinggi badannya. Nilai BMI (IMT) juga dapat menjadi alat skrining awal untuk mengetahui risiko seseorang terhadap suatu penyakit.</p>
+
+                        <p>Nilai BMI (IMT) yang tinggi menandakan bahwa Anda kelebihan berat badan (overweight atau obesitas). Sementara, nilai BMI (IMT) yang rendah artinya Anda kekurangan gizi dan memiliki berat badan rendah. Namun IMT tidak bisa membedakan persen lemak tubuh dan persen massa otot. Sementara, persen lemak tubuh lebih bisa memberikan gambaran terkait risiko penyakit kronis.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container1">
+                <div class="card">
+                    <div class="imgBx">
+                        <img src="image/shop/BMR.jpg">
+                    </div>
+                    <div class="content">
+                        <h2>Apa itu BMR?</h2>
+                        <p>Tubuh memerlukan bahan bakar agar semua organ dapat melakukan fungsi dasarnya dengan baik, seperti bernapas, mencerna makanan, hingga memompa darah ke seluruh tubuh. BMR adalah kebutuhan kalori minimal yang dipakai organ-organ tubuh untuk melakukan tugas dasarnya.Dengan memenuhi BMR, tubuh dapat tumbuh dan berfungsi dengan baik..</p>
+
+                        <p>Perhitungan kalkulator ini menggunakan rumus Harris-Benedict, yaitu menggunakan perbandingan berat badan, tinggi badan, usia, dan jenis kelamin. Sementara, ada faktor lain yang juga memengaruhi kebutuhan kalori harian, seperti aktivitas fisik dan penyakit yang sedang diderita. Jika Anda seorang atlet yang melakukan rutin latihan dan olahraga, perhitungan ini kurang tepat untuk Anda. Atau bila Anda sedang mengalami kondisi kesehatan tertentu, hasil kebutuhan kalori ini belum tentu sesuai dengan kebutuhan Anda.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- navbar tutup -->
+
+     <!-- Footer Started -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: 20%;">
+                            <h1 style="margin-left: -50%"><img src="image/logo.png" alt=""></h1> 
+                            <ul>
+                                <p>Follow kami di</p>
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-instagram"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6" >
+                        <div class="footer-content" style="margin-left: -10%">
+                            <h2>Map Site</h2>
+                            <ol style="margin-left: -5%">
+                                <li><a href="https://www.healthycarejournal.com/okinawa-flat-belly-tonic-review"></i>Syarat dan Ketentuan</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"></i>Promo</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"></i>Karir</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-ala-artis/"></i>Media</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-golongan-darah/"></iC>Corporate Partnership</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: -30%">
+                            <h2>Hubungi Kami</h2>
+                            <p>Jl. Ring Road Utara, Universitas Amikom</p>
+                            <p>Condong Catur, Depok, Yogyakarta</p>
+                            <p><b>telp    :</b> 021-92918399</p>
+                            <p><b>email :</b> sehatin@gmail.com</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: -25%">
+                            <h2>News Letters</h2>
+                            <p class="text-white" style="line-height: 18px;">kirim kritik dan saran anda agar kami menjadi lebih baik.</p>
+                            <div class="form-group">
+                                <input class="form-control mt-2" role="" name="email" type="email" placeholder="Pesan">
+                                <i class="fal fa-paper-plane" style="background:#0e2e06; "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <div class="container">
+                    <div class="copy-right-card">
+                        © 2021 SEHATIN Technology informatic.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+    <!-- <script src="bmi.js"></script> -->
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+  </html>

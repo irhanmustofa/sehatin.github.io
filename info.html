@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/styleinfo.css">
+    <!-- favicon -->
+    <link href="LOGO.png" rel="icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>DietIn</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+      <div class="container-fluid">
+    
+        <a class="navbar-brand font-weight-bold ls-2" href="index.html"><img src="image/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container" style="margin-left: 15%">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active mr-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="info.html"><font color="#FFC107">Info</font></a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="tanyadokter.html">Tanya Dokter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="shop.html">Toko</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="bmi.html">Cek BMI & BMR</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                            
+                <!-- <h4><a href="bmi.html"><i class="fas fa-cart-plus text-white mt-2" style="margin-right: 10px"></i></a></h4>
+                <a href="signup.html" class="btn btn-warning">DAFTAR</a> -->
+              
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar tutup -->
+<br><br>
+   
+    <!-- =================Slider Started==================== -->
+        <section class="slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/info/ht.jpg" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>LET'S DIET</h5>
+                            <h1>fit your <span>body</span></h1>
+                            <p>ready to change your physique, with a diet</p>
+                            <ol>
+                                <li><a href="bmi.html"><b>Get Started</b></a></li>
+                                <li><a href="#menu">Readmore</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Slider Ed==================== -->
+<br><br><br>
+        <!-- =================Bg-03 Started==================== -->
+        <section class="bg-03" id="member">
+          <h1 class="text-center">Mereka yang berhasil diet</h1>
+            <div class="wrapper d-flex">
+                <div class="content">
+                    <ol>
+                        <li>
+                           <div class="image">
+                               <div class="in-content">
+                                   <div class="content-list">
+                                        <h3>Albert</h3>
+                                        <span>Diet ATKINS</span>
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-twitter"></i></li>
+                                            <li><i class="fab fa-behance"></i></li>
+                                        </ul>
+                                   </div>
+                               </div>
+                               <img src="image/info/1.png">
+                            </div>
+                        </li>
+                        <li>
+                           <div class="image">
+                               <div class="in-content">
+                                   <div class="content-list">
+                                        <h3>Cyntia</h3>
+                                        <span>Diet Paleo</span>
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-twitter"></i></li>
+                                            <li><i class="fab fa-behance"></i></li>
+                                        </ul>
+                                   </div>
+                               </div>
+                               <img src="image/info/2.png">
+                            </div>
+                        </li>
+                        <li>
+                           <div class="image">
+                               <div class="in-content">
+                                   <div class="content-list">
+                                        <h3>Jhon</h3>
+                                        <span>Diet Golongan Darah</span>
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-twitter"></i></li>
+                                            <li><i class="fab fa-behance"></i></li>
+                                        </ul>
+                                   </div>
+                               </div>
+                               <img src="image/info/3.png">
+                            </div>
+                        </li>
+                        <li>
+                           <div class="image">
+                               <div class="in-content">
+                                   <div class="content-list">
+                                        <h3>Gabby</h3>
+                                        <span>Diet Raw Food</span>
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-twitter"></i></li>
+                                            <li><i class="fab fa-behance"></i></li>
+                                        </ul>
+                                   </div>
+                               </div>
+                               <img src="image/info/4.png">
+                            </div>
+                        </li>
+                        <li>
+                           <div class="image">
+                               <div class="in-content">
+                                   <div class="content-list">
+                                        <h3>Michael</h3>
+                                        <span>Diet vegetarian</span>
+                                        <ul>
+                                            <li><i class="fab fa-facebook-f"></i></li>
+                                            <li><i class="fab fa-twitter"></i></li>
+                                            <li><i class="fab fa-behance"></i></li>
+                                        </ul>
+                                   </div>
+                               </div>
+                               <img src="image/info/5.jpg">
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!-- =================Bg-03 Ed==================== -->
+
+        <!-- =================Bg-05 Started==================== -->
+
+        <section class="bg-05" id="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="heading-items">
+                        <h2>9 Menu Diet Terampuh</h2>
+                        <!-- <span><i class="far fa-gavel"></i></span> -->
+                    </div>
+
+                    <div class="blog-main-card d-flex">
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d2.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>1. Diet ATKINS</h4>
+                                    <p>Beragam jenis diet dengan janji mampu menurunkan berat badan secara cepat, sebaiknya tidak serta merta diikuti. Anda disarankan untuk mempertimbangkan terlebih dahulu kemungkinan manfaat dan risikonya, termasuk diet Atkins.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#dietatkins">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d1.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>2. Diet Golongan Darah</h4>
+                                    <p>Menu diet golongan darah adalah aturan pola makan dan gaya hidup berdasarkan golongan darah yaitu O, A, B, or AB. Ketahui lebih lengkap apa itu diet golongan darah, menu makanan yang direkomendasikan untuk setiap golongan.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#goldarah">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d3.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>3. Diet Paleo</h4>
+                                    <p>Diet ini menyarankan hanya makan makanan yang dianggap tersedia bagi manusia Paleolitik, tetapi ada banyak variasi dalam pemahaman orang tentang makanan apa ini, dan perdebatan yang sedang berlangsung.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#paleo">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d4.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>4. Diet vegetarian</h4>
+                                    <p>Nah, inilah tipe vegetarian yang paling ketat. Seluruh asupannya berbasis tumbuhan. Vegan tidak memakan produk hewan apa pun, termasuk daging, ikan, unggas, susu, telur, maupun produk turunannya.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#vegetarian">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d5.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>5. Diet Raw Food</h4>
+                                    <p>Diet raw food bertujuan untuk menjaga keseimbangan lingkungan serta menurunkan berat badan dengan cara mengonsumsi makanan dan minuman yang segar, bersifat organik, dan tidak diproses.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#rowfood">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d6.png">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>6. Diet Mediterania</h4>
+                                    <p>Diet raw food bertujuan untuk menjaga keseimbangan lingkungan serta menurunkan berat badan dengan cara mengonsumsi makanan dan minuman yang segar, bersifat organik, dan tidak diproses.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#Mediterania">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d7.jpg">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>7. Diet zone</h4>
+                                    <p>Jenis diet ini menekankan keseimbangan asupan karbohidrat (40%), lemak (30%), dan protein (30%) dalam setiap kali makan. Tujuan diet Zone adalah mengontrol kadar insulin darah yang akan berdampak baik pada berat badan.</p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#zone">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d8.jpg">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>8. Diet Ayurveda</h4>
+                                    <p>Diet Ayurveda berasal dari India dan membagi tubuh manusia menjadi tiga tipe berdasarkan jenis metabolismenya, yaitu vata (katabolik), kapha (anabolik), dan pitta (metabolik).<br> <br></p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#Ayurveda">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+
+                        <article class="blog-sub">
+                            <div class="blog-content">
+                                <img src="image/info/d9.jpg">
+                            </div>
+                            <div class="blog-content-date">
+                                june
+                                <span> 8</span>
+                            </div>
+                            <div class="blog-content-section">
+                                <div class="blo-content-title">
+                                    <h4>9. Diet Weight Watcher</h4>
+                                    <p>Diet weight watcher memerlukan komitmen yang sangat kuat dari orang yang menjalankannya. Sebab, diet ini tidak mencantumkan makanan yang dilarang atau disarankan.<br> <br></p>
+                                </div>
+                                <div class="blog-admin">
+                                    <ol>
+                                        <li><i class="fal fa-user-tie"></i> By Admin</li>
+                                        <li><i class="fal fa-calendar-alt"></i> july 28, 2020</li>
+                                    </ol>
+                                </div>
+                                <button class="btn-primary"><a class="text-white" href="#Weight">Baca selengkapnya</a></button>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-05 End==================== -->
+
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+
+
+
+<!--===================================== konten====================================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,138.7C80,149,160,171,240,160C320,149,400,107,480,85.3C560,64,640,64,720,80C800,96,880,128,960,117.3C1040,107,1120,53,1200,64C1280,75,1360,149,1400,186.7L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="dietatkins">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>1. Diet ATKINS</b></h2>
+                                <h4>kenaikan berat badan disebabkan oleh karbohidrat</h4>
+                                <p>Beragam jenis diet dengan janji mampu menurunkan berat badan secara cepat, sebaiknya tidak serta merta diikuti. Anda disarankan untuk mempertimbangkan terlebih dahulu kemungkinan manfaat dan risikonya, termasuk diet Atkins.Diet Atkins diperkenalkan oleh seorang dokter spesialis jantung bernama Robert Atkins pada tahun 1972. Diet ini berupaya mengendalikan asupan karbohidrat, dan mengonsumsi lebih banyak protein serta lemak sebagai gantinya. Diet ini mirip dengan jenis diet lain, yaitu Diet Dukan. Namun, diet Dukan menekankan pada pola makan tinggi protein serta rendah karbohidrat dan lemak.Hanya saja, efektivitas diet Atkins untuk menurunkan dan mempertahankan berat badan masih belum didukung hasil penelitian yang kuat.</p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="abt-img">
+                            <div class="image-box">
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/z9mcJ7bwDng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="conten">
+                        <p><h4>Manfaat Diet Atkins</h4>
+Untuk memperoleh energi, tubuh membakar lemak dan karbohidrat. Diet Atkins menganggap, mengurangi karbohidrat akan membuat proses pembakaran lemak lebih efektif.  Sebab, tubuh kemudian akan mengutamakan pembakaran lemak sebagai sumber energi. Ini yang dapat mendorong penurunan berat badan.
+
+Sebagaimana upaya penurunan berat badan, diet Atkins juga berpeluang memperbaiki kadar kolesterol dan gula darah. Sebuah studi menunjukkan, diet Atkins dapat memperbaiki kadar trigliserida dalam darah, meski tidak diketahui berapa lama efek ini akan bertahan. Diet ini juga dianggap dapat membantu mengurangi risiko penyakit diabetes, tekanan darah tinggi, sindrom metabolik, dan penyakit jantung.</p>
+                                <p><h4>Risiko Diet Atkins</h4>
+Namun, di samping manfaatnya, ada pula risiko diet Atkins yang perlu diperhatikan, seperti pusing, sakit kepala, lelah, lemas, mual, diare, atau susah buang air besar. Hal ini terjadi akibat penurunan asupan karbohidrat.
+
+Ada pula risiko yang tergolong berbahaya saat fase awal diet Atkins, akibat kurangnya asupan gula atau karbohidrat untuk energi, yaitu ketosis. Ketosis adalah cara tubuh mencerna simpanan lemak dan menghasilkan keton sebagai zat sisa. Beberapa gejala yang dikeluhkan karena zat keton yang menumpuk di dalam tubuh yaitu mual, sakit kepala, bau mulut, serta perubahan psikologis.
+
+Ketosis yang terjadi dalam jangka panjang dapat memicu kondisi yang lebih serius, yaitu ketoasidosis. Kondisi ini terjadi ketika keton menumpuk di dalam darah dan menjadi beracun. Ketoasidosis dapat menyebabkan koma hingga kematian. Risiko terjadinya ketoasidosis akan semakin meningkat pada orang yang memiliki diabetes dan menjalani diet yang berlebihan.</p>
+                      </div>
+                    </div>
+                    
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L40,176C80,160,160,128,240,101.3C320,75,400,53,480,85.3C560,117,640,203,720,202.7C800,203,880,117,960,96C1040,75,1120,117,1200,133.3C1280,149,1360,139,1400,133.3L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,128C80,128,160,128,240,154.7C320,181,400,235,480,250.7C560,267,640,245,720,208C800,171,880,117,960,117.3C1040,117,1120,171,1200,165.3C1280,160,1360,96,1400,64L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="goldarah">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>2. Diet Golongan Darah</b></h2>
+                                <h4>Golongan Darah O</h4>
+                                <p>Makanan yang sangat bermanfaat :
+Brokoli, ubi, waluh, selada, ganggang laut, lobak china, bluberi, ceri, jambu biji, bumbu kari, kacang polong, kacang merah, semua jenis bawang, rumput laut, jahe, kailan, kunyit, Daging ( sapi, kerbau, rusa, domba, anak sapi )
+
+Makanan yang diijinkan :
+Ikan mas, belut, lobster, ikan tuna, ikan sardine, udang, telur (ayam, bebek), mentega, kacang ( hitam, merah, buncis, kedelai ), tempe, tahu, susu kedelai, bubur gandum, beras, kue beras, roti beras, tepung gandum, terung, tomat, labu, Daging ( ayam, bebek, kambing, angsa, kalkun, kelinci )
+
+Makanan yang harus dihindari :
+Daging babi, cumi-cumi, sotong, kerang, kodok, gurita, telur (angsa, puyuh), es krim, keju, susu sapi, yoghurt(semua jenis), minyak kelapa, penyu, minyak jagung, jagung, bunga brokoli, kacang tanah, kacang mede, kuaci, laichi, kentang, mentimun, kembang kol, jamur, blewah, jeruk mandarin, pisang raja, pare, anggur putih, kecap, kopi, minuman keras</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="abt-img">
+                            <div class="image-box">
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/x05fMnXqsq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="content">
+                        <h4>Golongan Darah A</h4>
+                                <p>Makanan yang sangat bermanfaat :
+Bayam, brokoli, wortel, jamur ikan mas, kacang tanah, kacang buncis, kacang/ susu kedelai, tahu, tempe, tepung beras, bluberi, minyak zaitun, ikan mas, ikan sardine, (Siput, jus nanas, mangga, pisang, jeruk limau & sitrun).
+
+Makanan yang diijinkan :
+Ikan tuna, telur ayam & bebek, telur puyuh, biji wijen, biji bunga matahari, kacang ercis / kapri, jagung, tapioka, roti gandum, labu, bawang merah, mentimun, talas, anggur (semua jenis), melon, blewah, pir, delima, kiwi, kurma, strowberi, kesemek, jambu biji, Daging (ayam, burung unta, belibis kalkun,burung dara)
+
+Makanan yang harus dihindari :
+Daging (sapi, kerbau, domba, bebek, angsa, kelinci, ayam hutan), lobster, gurita, kepiting, belut, kodok, udang, cumi- cumi, mentega, susu sapi, keju, es krim, susu, murni, acar, terung, tomat, ubi, kentang, jeruk, kelapa/ santan, melon madu, pisang (raja), pepaya, pare, air soda.</p>
+                      <h4>Golongan Darah B</h4>
+                      <p>Makanan yang sangat bermanfaat :
+Ikan laut, susu sapi, keju, buburgandum, roti essene, kue beras, brokoli, ubi, wortel, kembang kol, terung, teh hijau, Daging (kambing, domba, kelinci, rusa)
+
+Makanan yang diijinkan :
+Cumi-cumi, ikan mas, ikan tuna, mentega, keju, telur ayam, kacang merah, kacang buncis, tepung beras, roti beras, bayam, brokoli, selada, mentimun, labu, kentang, sawi, mangga, melon, jeruk, pir, kurma, jambu biji, Daging (sapi, kerbau, kalkun, hati anak sapi)
+
+Makanan yang harus dihindari :
+Daging (bebek, ayam, angsa, belibis, babi, kuda, keong, kepiting, siput, belut, kodok, gurita, lobster, es krim, telur (bebek, angsa, puyuh), kacang tanah,roti gandum,tomat, waluh, jagung, avokad, pare, delima, kelapa/ santan, kesemek, belimbing, pir, air soda, minuman beralkohol.</p>
+                      <h4>Golongan Darah AB</h4>
+                      <p>Makanan yang sangat bermanfaat :
+Ikan sardin, ikan tuna, susu kambing, putih telur (ayam), keju ricotta, krim asam (rendah kalori), the hijau, anggur merah, Daging (domba, kelinci, kalkun),
+
+Makanan yang diijinkan :
+Cumi-cumi, ikan mas, ikan tuna, mentega, keju, telur ayam, kacang merah, kacang buncis, tepung beras, roti beras, bayam, brokoli, selada, mentimun, labu, kentang, sawi, mangga, melon, jeruk, pir, kurma, jambu biji, Daging burung unta,
+
+Makanan yang harus dihindari :
+Daging (sapi, kerbau, ayam, bebek, angsa, babi, rusa kuda), lobster, kepiting, kodok, mentega, es krim, telor bebek, kacang hitam, acar, jagung, belimbing, delima, pare, pisang, kelapa, kesemek, jambu biji, mangga, saus tomat, kopi, soda, minuman beralkohol.</p>
+                      </div>  
+                    </div>
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,128C80,128,160,128,240,154.7C320,181,400,235,480,250.7C560,267,640,245,720,208C800,171,880,117,960,117.3C1040,117,1120,171,1200,165.3C1280,160,1360,96,1400,64L1440,32L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,288L40,282.7C80,277,160,267,240,250.7C320,235,400,213,480,213.3C560,213,640,235,720,250.7C800,267,880,277,960,256C1040,235,1120,181,1200,170.7C1280,160,1360,192,1400,208L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="paleo">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>3. Diet Paleo</b></h2><br>
+                                
+                                <p><b>Makanan yang sangat bermanfaat</b> :<br>
+Brokoli, ubi, waluh, selada, ganggang laut, lobak china, bluberi, ceri, jambu biji, bumbu kari, kacang polong, kacang merah, semua jenis bawang, rumput laut, jahe, kailan, kunyit, Daging ( sapi, kerbau, rusa, domba, anak sapi )<br>
+
+Makanan yang diijinkan :
+Ikan mas, belut, lobster, ikan tuna, ikan sardine, udang, telur (ayam, bebek), mentega, kacang ( hitam, merah, buncis, kedelai ), tempe, tahu, susu kedelai, bubur gandum, beras, kue beras, roti beras, tepung gandum, terung, tomat, labu, Daging ( ayam, bebek, kambing, angsa, kalkun, kelinci )<br> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="abt-img">
+                            <div class="image-box">
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/FNIoKmMq6cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="content">
+                        <p><b>Makanan yang harus dihindari</b> : <br>
+Daging babi, cumi-cumi, sotong, kerang, kodok, gurita, telur (angsa, puyuh), es krim, keju, susu sapi, yoghurt(semua jenis), minyak kelapa, penyu, minyak jagung, jagung, bunga brokoli, kacang tanah, kacang mede, kuaci, laichi, kentang, mentimun, kembang kol, jamur, blewah, jeruk mandarin, pisang raja, pare, anggur putih, kecap, kopi, minuman keras</p>Diet ini menyarankan hanya makan makanan yang dianggap tersedia bagi manusia Paleolitik, tetapi ada banyak variasi dalam pemahaman orang tentang makanan apa ini, dan perdebatan yang sedang berlangsung.[3]<br>
+
+55% kalori harian terbelah dua antara makanan laut dan daging tanpa lemak
+45% kalori harian terbagi dalam tiga di antara buah-buahan, sayuran, dan kacang-kacangan dan biji-bijian
+Tidak ada produk susu, hampir tidak ada biji-bijian (yang disebut Cordain sebagai "makanan kelaparan" bagi orang-orang Paleolitik), tidak ada garam tambahan, tidak ada gula tambahan
+Diet didasarkan pada menghindari tidak hanya makanan olahan modern, tetapi juga makanan yang manusia mulai makan setelah Revolusi Neolitik .[3]<br>
+
+Literatur ilmiah umumnya menggunakan istilah "pola nutrisi Paleo", yang telah banyak digambarkan sebagai:<br>
+
+"sayuran, buah-buahan, kacang-kacangan, akar, daging, dan daging organ";[3]
+"sayuran (termasuk sayuran akar), buah (termasuk minyak buah, mis., minyak zaitun, minyak kelapa, dan minyak sawit), kacang-kacangan, ikan, daging, dan telur, dan itu tidak termasuk susu, makanan berbahan dasar biji-bijian, kacang-kacangan, gula tambahan, dan produk nutrisi industri (termasuk lemak olahan dan karbohidrat olahan) ";[9] dan
+"Menghindari makanan olahan, dan menekankan makan sayuran, buah-buahan, kacang-kacangan dan biji-bijian, telur, dan daging tanpa lemak".[6]</p>
+                      </div>
+                    </div>
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+            </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,181.3C320,171,400,117,480,101.3C560,85,640,107,720,133.3C800,160,880,192,960,197.3C1040,203,1120,181,1200,176C1280,171,1360,181,1400,186.7L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,197.3C320,203,400,181,480,176C560,171,640,181,720,208C800,235,880,277,960,266.7C1040,256,1120,192,1200,192C1280,192,1360,256,1400,288L1440,320L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="vegetarian">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>4. Diet Vegetarian</b></h2><br>
+                                
+                                <p><b>Makanan yang sangat bermanfaat</b> :<br>
+Mayoritas pelaku diet vegetarian menganut jenis lacto ovovegetarian. Lacto ovovegetarian adalah kondisi di mana mereka tidak mengonsumsi makanan yang bersumber dari hewan, kecuali telur, produk susu, dan madu.
+Namun, terdapat jenis diet vegetarian lain – yakni diet vegan – yang tidak mengonsumsi apa pun yang berasal dari hewan, termasuk telur, produk susu, dan madu. Selain sebagai pola makan, diet vegan juga merupakan cara hidup seseorang yang menjunjung keseimbangan lingkungan dan menghindari perilaku tidak etis pada hewan.
+Jenis diet vegetarian lainnya adalah fruitarian vegetarian, lacto ovo vegetarian, ovo vegetarian, pescatarian, dan pollotarian.
+Diet vegetarian bertujuan untuk mengurangi risiko penyakit jantung dan pembuluh darah, diabetes, maupun kanker. Beberapa studi menunjukkan bahwa pelaku diet vegetarian memiliki berat badan yang lebih rendah, lebih jarang menderita penyakit, dan memiliki rentang hidup lebih panjang dibanding dengan orang yang mengonsumsi daging.
+<br> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="abt-img">
+                            <div class="image-box">
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/Xv_ykZr_8cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+                </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,170.7C560,139,640,117,720,122.7C800,128,880,160,960,154.7C1040,149,1120,107,1200,101.3C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,170.7C560,139,640,117,720,122.7C800,128,880,160,960,154.7C1040,149,1120,107,1200,101.3C1280,96,1360,128,1400,144L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="rowfood">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>5. Diet Raw Food</b></h2><br>
+                                <p>Seperti namanya, diet raw food adalah pola makan di mana orang yang menjalaninya hanya mengonsumsi makanan mentah, atau makanan yang melalui sedikit proses pengolahan. Batas suhu memasak yang disarankan dalam diet ini adalah antara 40 – 48 derajat Celcius.</p><br>
+                                <p><b>Apa Manfaat Diet Raw Food</b> : <br>
+Efektivitas diet ini sebenarnya masih dalam penelitian. Namun ada beberapa manfaat yang ditawarkan atau diklaim oleh diet raw food, yaitu:
+
+Menurunkan risiko penyakit jantung. Karena diet ini banyak melibatkan konsumsi buah dan sayur, maka dianggap dapat membantu mengurangi tekanan darah dan menjaga kesehatan jantung. Akan tetapi kepastian manfaat diet raw food yang satu ini masih perlu diteliti lebih lanjut.
+Menurunkan kolesterol jahat, karena redahnya konsumsi lemak jenuh.
+Menurunkan indeks massa tubuh, yang juga berarti mengatasi kelebihan berat badan. Hal ini karena makanan yang dikonsumsi pada diet raw food cenderung rendah kalori.
+Membuat kulit terlihat lebih segar.
+Menyehatkan pencernaan, sebab makanan yang dianjurkan dalam diet ini kaya akan kandungan serat.
+Meningkatkan metabolisme tubuh.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <div class="abt-img">
+                            <div class="image-box">
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/UHUTmZCq4Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="content">
+                        
+                        <p>Sehat sih, Tapi Hati-hati dan Perhatikan Hal Ini
+Manfaat yang ditawarkan diet raw food ini mungkin membuat kamu jadi tertarik untuk mencobanya. Tapi, jangan terburu-buru. Perhatikan dan ingat baik-baik, beberapa dari makanan ini mungkin tidak aman dikonsumsi dalam keadaan mentah karena dapat mengandung kuman atau racun.
+
+Makanan yang tidak disarankan untuk dikonsumsi mentah atau tanpa pengolahan adalah kacang merah, singkong, jamur, kacang polong, kacang kapri, telur, daging, dan susu. Ikan segar yang berkualitas tinggi masih boleh dikonsumsi, misalnya sebagai hidangan sashimi atau sushi. Tapi, agar lebih aman, sebaiknya tambahkan wasabi untuk membasmi bakteri di dalamnya.
+
+Risiko lain yang juga perlu diperhatikan saat menjalani diet ini adalah kekurangan nutrisi. Asupan zat besi, omega-3, protein, vitamin B12, vitamin D, kalsium, dan selenium bisa saja kurang karena jenis makanan yang dikonsumsi dalam diet ini sangat terbatas.
+
+Ingat, tidak semua makanan cocok menjadi menu diet raw food. Sebaiknya olah makanan sebelum dikonsumsi agar bebas dari kontaminasi kuman. Namun, tetap gunakan cara pengolahan yang sehat, misalnya merebus atau memanggang. Jika kamu memiliki kondisi kesehatan tertentu, disarankan untuk berkonsultasi ke dokter terlebih dulu sebelum mencoba diet raw food.</p>
+                      </div>
+                    </div>
+                    </div>
+                    <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+                </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,170.7C560,139,640,117,720,122.7C800,128,880,160,960,154.7C1040,149,1120,107,1200,101.3C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,170.7C560,139,640,117,720,122.7C800,128,880,160,960,154.7C1040,149,1120,107,1200,101.3C1280,96,1360,128,1400,144L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="rawfood">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                        <div class="wrapper">
+                            <div class="content">
+                                <h2><b>6. Diet Mediterania</b></h2><br>
+                                <p>Diet Mediterania ini mengacu pada kebiasaan makan masyarakat Eropa Selatan, seperti Yunani, Kreta, dan Italia selatan. Jenis diet ini bertujuan untuk mengurangi risiko penyakit kronis, seperti diabetes, penyakit jantung dan pembuluh darah, serta kanker.
+Diet ini menekankan pada konsumsi sayuran. Sumber utama lemak pada diet jenis ini berupa kacang-kacangan, serealia, biji-bijian, dan minyak zaitun, disertai produk susu seperti keju dan yoghurt, ikan dan unggas dalam jumlah sedang.
+Menu tersebut juga ditambah sekitar empat butir telur per minggu, daging merah dalam jumlah sedikit, minuman anggur dalam jumlah sedikit hingga sedang, dan menggunakan makanan penutup berupa buah-buahan segar.<p>Diet mediterranean (bahasa Inggris:Mediterranean diet) adalah salah satu cara diet modern untuk menggantikan teknik diet tradisional yang dinilai banyak membawa dampak negatif.[1] Ini dibuktikan dengan angka kematian akibat penyakit jantung koroner yang tergolong rendah di negara-negara Mediterranean dibandingkan dengan negara industri lainnya.[1] Hal yang menyebabkannya adalah kebiasaan makan dan hidup mereka berbeda dengan negara-negara maju lainnya.[2]
+
+Diet Meditteranean secara tradisional terdiri dari delapan komponen, yakni tingginya rasio lemak jenuh tunggal terhadap lemak jenuh ganda, tingkat konsumsi alkohol sedang, tingginya konsumsi buah polong, banyak konsumsi serealia, banyak konsumsi buah-buahan, banyak konsumsi sayuran, sedikit konsumsi susu dan produk susu, dan olahraga secara teratur.[2] Makin banyak komponen diet dijalani makin bayak keuntungan yang dicapai.[2] Meskipun keuntungan tersebut dapat disebabkan oleh banyaknya serat gizi dan antioksidan yang ada di dalam diet Mediterranean, penelitian mutakhir menunukkan bahwa asam lemak tak jenuh tunggal (asam oleat) berperan penting dalam pencegahan penyakit jantung koroner.[2]</p>
+</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="col-md-4 col-12">
+                          <div class="abt-img">
+                              <div class="image-box">
+                                  <iframe width="460" height="315" src="https://www.youtube.com/embed/tHsSQCWwpog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+                </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L40,154.7C80,181,160,235,240,240C320,245,400,203,480,170.7C560,139,640,117,720,122.7C800,128,880,160,960,154.7C1040,149,1120,107,1200,101.3C1280,96,1360,128,1400,144L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,176C320,181,400,203,480,192C560,181,640,139,720,144C800,149,880,203,960,234.7C1040,267,1120,277,1200,256C1280,235,1360,181,1400,154.7L1440,128L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="zone">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                    <div class="wrapper">
+                      <div class="content">
+                        <h2><b>7. Diet ZONE</b></h2><br>
+                        <P>Jenis diet ini menekankan keseimbangan asupan karbohidrat (40%), lemak (30%), dan protein (30%) dalam setiap kali makan. Tujuan diet Zone adalah mengontrol kadar insulin darah yang akan berdampak baik pada berat badan.
+Karbohidrat yang digunakan dalam diet ini adalah karbohidrat berkualitas baik yang belum diproses (unrefined carbohydrate), dan lemak yang berasal dari minyak zaitun, kacang-kacangan, dan alpukat</P>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4 col-12">
+                      <div class="abt-img">
+                        <div class="image-box">
+                          <iframe width="460" height="315" src="https://www.youtube.com/embed/Zxuwkptf-Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="col">
+                        <p>
+Berat badan dapat diturunkan dengan mudah dengan cara membatasi asupan nutrisi. Faktor pengali untuk energi yang umum diterima oleh banyak orang adalah sebagai berikut: 1 gram karbohidrat menghasilkan 4 kkal, 1 gram protein 4 kkal, dan 1 gram lemak 9 kkal, sedangkan alkohol 7 kkal. Dengan menjumlahkan nilai BMR dengan kebutuhan kalori peraktivitas, seseorang dapat dengan mudah memprediksi hasil dietnya.
+
+Asupan nutrisi yang baik itu mengandung beberapa hal yaitu, Vitamin, mineral, serat, protein, asam amino, phytonutrients, antioxidants. beberapa hal tersebut penting agar tubuh Anda tetap bugar walau sedang diet. berikut analoginya:
+
+Jika kalori masuk > kalori keluar, maka sisa kalori akan disimpan dalam tubuh, mula-mula disimpan dalam hati, baru kemudian disimpan di seluruh tubuh.
+
+Jika kalori masuk < kalori keluar, maka simpanan kalori akan digunakan untuk menutupi defisit energi, mula-mula gula darah dalam otot dan pembuluh darah, kemudian mengubah glycogen dalam hati menjadi glukosa dan baru membakar lemak ataupun juga protein.
+
+Kalori masuk adalah kalori yang diperoleh dari makanan sedangkan kalori keluar adalah kebutuhan kalori untuk BMR ditambah dengan kalori peraktivitas.</p>
+                      </div>
+                    </div>
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+              </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L40,186.7C80,181,160,171,240,176C320,181,400,203,480,192C560,181,640,139,720,144C800,149,880,203,960,234.7C1040,267,1120,277,1200,256C1280,235,1360,181,1400,154.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L40,218.7C80,181,160,107,240,112C320,117,400,203,480,218.7C560,235,640,181,720,181.3C800,181,880,235,960,218.7C1040,203,1120,117,1200,117.3C1280,117,1360,203,1400,245.3L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="Ayurveda">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                    <div class="wrapper">
+                      <div class="content">
+                        <h2><b>8. Diet Ayurveda</b></h2><br>
+                        <P>Diet Ayurveda berasal dari India dan membagi tubuh manusia menjadi tiga tipe berdasarkan jenis metabolismenya, yaitu vata (katabolik), kapha (anabolik), dan pitta (metabolik). Tujuan diet Ayurveda adalah menjaga tipe tubuh sesuai bawaan lahir dan menjalani pola makan sesuai tipe ini.
+Selain mengonsumsi makanan sesuai jenis metabolisme tubuh, jenis diet ini juga menyarankan agar Anda makan dalam keadaan santai, mengatur jarak makan yang baik, menghindari ngemil di antara makan berat, serta lebih memilih memasak makanan sendiri dibandingkan makan makanan dari luar.
+Diet Ayurveda juga mengajak pelakunya untuk memilih makanan yang tumbuh sesuai musim berjalan, dengan pemahaman bahwa alam telah menyediakan jenis bahan makanan yang sesuai untuk dikonsumsi pada musim tersebut.
+</P>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4 col-12">
+                      <div class="abt-img">
+                        <div class="image-box">
+                          <iframe width="460" height="315" src="https://www.youtube.com/embed/acxwh2EPXHA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="col">
+                        <p>Berdasarkan tiga unsur tubuh tersebut tentunya kebutuhan nutrisi dan diet juga berbeda. Joshua memberikan panduan diet Ayurveda sesuai ketiga unsur itu. <br>
+
+1. Unsur Vatta <br>
+Karakter vatta yang ringan berarti perlu sesuatu yang berat, misalnya protein. "Jadi kalau orang yang tipe angin disuruh makan daun kering berupa lalapan atau salad nggak cocok, nanti tubuh tambah dingin. Jadi mesti yang hangat ya dimasak, sup, dikasih minyak, jadi ada unsur kehangatan dan ada unsur lemak untuk melembabkan kekeringan itu," ujar Joshua. <br>
+
+2. Unsur Pitta <br>
+Unsur kedua yakni api yang sifatnya panas dan agak berminyak sedikit. "Untuk menyeimbangkan kita perlu diet dengan sesuatu yang cooling, contohnya perlu jus, salad, buah, dan sayuran yang segar-segar," ucapnya. <br>
+
+3. Unsur Kapha <br>
+Ketiga ialah unsur kapha yakni bumi sifatnya berat, basah dan dingin yang artinya mesti seimbang antara hangat dan dingin. "Jadi makannya mungkin makan porsi kecil tapi sering, terus kasih makanan yang hangat-hangat juga sebagai penyeimbang," tandas Joshua. </p>
+                      </div>
+                    </div>
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+              </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L40,218.7C80,181,160,107,240,112C320,117,400,203,480,218.7C560,235,640,181,720,181.3C800,181,880,235,960,218.7C1040,203,1120,117,1200,117.3C1280,117,1360,203,1400,245.3L1440,288L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <!-- =================Bg-04 Started==================== -->
+        <section class="bg-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Bg-04 Ed==================== -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L40,106.7C80,117,160,139,240,149.3C320,160,400,160,480,149.3C560,139,640,117,720,106.7C800,96,880,96,960,133.3C1040,171,1120,245,1200,256C1280,267,1360,213,1400,186.7L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <section class="bg-01" id="Weight">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-8 col-12">
+                    <div class="wrapper">
+                      <div class="content">
+                        <h2><b>9. Diet Weight Watcher</b></h2><br>
+                        <P>Diet weight watcher memerlukan komitmen yang sangat kuat dari orang yang menjalankannya. Sebab, diet ini tidak mencantumkan makanan yang dilarang atau disarankan.
+Semua makanan mempunyai sistem poin. Artinya, tak sembarang orang yang bisa melakukan diet ini. Hanya mereka yang dapat menghitung kalori saja yang dapat melakukannya. Diet model ini biasanya membutuhkan bantuan dokter ahli gizi untuk membuatkan menu untuk pasiennya yang ingin mengurangi berat badan.
+
+</P>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4 col-12">
+                      <div class="abt-img">
+                        <div class="image-box">
+                          <iframe width="460" height="315" src="https://www.youtube.com/embed/-IQ84NiiPkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <button class="btn-primary"><a class="text-white" href="#menu">Kembali ke MENU</a></button>
+              </div>
+        </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L40,106.7C80,117,160,139,240,149.3C320,160,400,160,480,149.3C560,139,640,117,720,106.7C800,96,880,96,960,133.3C1040,171,1120,245,1200,256C1280,267,1360,213,1400,186.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+        <!-- Footer Started -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content">
+                            <img src="image/index/logokes.png">
+                            <p class="text-white">Mencegah itu lebih baik dari pada mengobati, jadilah pelopor kesehatan dengan menggunakan masker dan menjaga pola makan agar terhindar dari penyakit</p>
+                            <ul>
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-google"></i></li>
+                                <li><i class="fab fa-skype"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content">
+                            <h2>Quick Links</h2>
+                            <ol>
+                                <li><a href="https://www.healthycarejournal.com/okinawa-flat-belly-tonic-review"><i class="fal fa-angle-double-right"></i>Diet Buah</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"><i class="fal fa-angle-double-right"></i>Diet tanpa nasi</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"><i class="fal fa-angle-double-right"></i>Diet tanpa nasi</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-ala-artis/"><i class="fal fa-angle-double-right"></i>Diet Artis</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-golongan-darah/"><i class="fal fa-angle-double-right"></i>Diet golongan darah</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content">
+                            <h2>Fast Link</h2>
+                            <ol>
+                                <li><a href="info.html"><i class="fal fa-angle-double-right"></i>Home</a></li>
+                                <li><a href="#member"><i class="fal fa-angle-double-right"></i>Member</a></li>
+                                <li><a href="#menu"><i class="fal fa-angle-double-right"></i>Menu</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content">
+                            <h2>News Letters</h2>
+                            <p class="text-white">kirim kritik dan saran anda agar kami menjadi lebih baik.</p>
+                            <div class="form-group">
+                                <input class="form-control" role="" name="email" type="email" placeholder="Pesan">
+                                <i class="fal fa-paper-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <div class="container">
+                    <div class="copy-right-card">
+                        © 2021 SEHATIN Technology informatic.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+
+
+
+
+
+        <!--===================================== konten tutup====================================== -->
+   
+   
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

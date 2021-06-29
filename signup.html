@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="js/signup.js"></script>
+</head>
+<body>
+    <!-- <div id="container">
+        <h2 class="text-center">Daftar Akun</h2>
+        <div id="header"></div>
+            <input type="email" placeholder="email" id="email"/>
+            <input type="password" placeholder="password" id="password"/>
+
+            <button onclick="signUp()" id="signup">Sign Up</button>
+            
+    </div> -->
+    <div class="container">
+        <h2 class="text-center">Daftar Akun</h2>
+        <div class="form-group">
+            <label>Username</label>
+            <input type="email" placeholder="email" id="email" class="form-control"/>
+        </div>  
+
+        <div class="form-group">
+            <label>Password</label>
+            <input type="text" name="" id="password" class="form-control" placeholder="Buat Password">
+            </div>
+        </div>
+        <br>
+        <button onclick="signUp()" id="signup" class="btn btn-primary">Sign Up</button>
+        <br><br>
+        <p class="text-center">Sudah Punya Akun <a href="login2.html" class="btn btn-success" id="btn2">LOGIN</a></p>
+    </div>
+</body>
+
+</html>

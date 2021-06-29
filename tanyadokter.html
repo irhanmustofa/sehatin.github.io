@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Requi#f51b43 meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/tanyadokter.css">
+    <!-- favicon -->
+    <link href="LOGO.png" rel="icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Custom fonts for this template-->
+    
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    
+    
+
+    <title>Tanya Dokter</title>
+  </head>
+  <body>
+     <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparant fixed-top">
+      <div class="container-fluid">
+    
+        <a class="navbar-brand font-weight-bold ls-2" href="index.html"><img src="image/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container" style="margin-left: 15%">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active mr-3" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="info.html">Info</a>
+                </li>
+                <li class="nav-item mr-3">
+                  <a class="nav-link active" href="tanyadokter.html"><font color="#FFC107">Tanya Dokter</font></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="shop.html">Toko</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="bmi.html">Cek BMI & BMR</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                            
+                <!-- <h4><a href="#"><i class="fas fa-cart-plus text-white mt-2" style="margin-right: 10px"></i></a>    </h4> -->
+                <!-- <button class="btn btn-outline-warning" type="submit" style="width: 6rem; font-size: 18px; letter-spacing: 2px; align-items: center;"><a href="login2.html">LogOut</a></button> -->
+                <a href="login2.html" class="btn btn-warning" onclick="logout()">LOG OUT</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar tutup -->
+<!-- konten kiri -->
+<br><br>
+<div class="row no-gutter" style="margin-top: 4%; margin-left: 2px">
+      <div class="col-md-5 bg-light">
+        <p class="text-center"><b>Chat dengan dokter terpercaya</b></p>
+        <p class="text-center"><a href="">Syarat dan ketentuan</a> berlaku untuk chat gratis <br> dengan dokter</p>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="image/konsultasi/dok2.png" class="d-block w-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Pilih dari ratusan dokter berpengalaman dan <br> chat online sekarang</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="image/konsultasi/dok1.png" class="d-block w-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Dokter akan segera menerima permintaan <br> chat kamu</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="image/konsultasi/dok3.png" class="d-block w-50" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Silakan jelaskan kondisi kamu dan dapatkan <br> solusi dari dokter terpercaya</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <p>Kami Pastikan</p>
+        <div class=" info">
+          
+        <img src="image/konsultasi/lg1.png"><p>Chat dengan Dokter berpengalaman dan terverifikasi dengan beragam pilihan dokter umum dan dokter spesialis di seluruh Indonesia</p>
+        <img src="image/konsultasi/lg2.png"><p>Dapatkan penjelasan dan saran medis yang akurat dan dapat dipercaya</p>
+        <img src="image/konsultasi/lg3.png"><p>Privasi kamu dijamin</p>
+        <button class="btn-danger">Info Lebih Lanjut</button>
+        
+        </div>
+      </div>
+
+      <!-- akhir navbar kiri -->
+
+<!-- navbar kanan -->
+      <div class="col-md-7 bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+        </nav><br><br>
+        <!-- akhir navbar -->
+<!-- ============list dokter========================= -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/g1.png"><b><br>Dr. Ottiara Febriannisa Akbariah</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success " target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/g2.png"><b><br>Dr. Betshaida Yunisha Purba</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success" target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/dr2.png"><b><br>Dr. Betshaida Yunisha Purba</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success" target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/dr3.png"><b><br>Dr. Betshaida Yunisha Purba</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success" target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/dr5.png"><b><br>Dr. Betshaida Yunisha Purba</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success" target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text text-center"><img src="image/konsultasi/dr6.png"><b><br>Dr. Betshaida Yunisha Purba</b><br>Dokter Ahli Gizi</p>
+                <a href="https://wa.wizard.id/41a2d1" class="btn btn-success" target="_blank">Chat Dokter</a>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+        <!-- ==============================akhir list dokter=================================== -->
+
+
+        <!-- =================awal berita================================= -->
+        <p class="text-center">------------------------------------------ATAU---------------------------------------</p>
+        <h6><b>Baca artikel lainnya :</b></h6>
+        <p>Pilih kategori dan temukan dokter untuk menjawab pertanyaan seputar medis untuk kamu</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item1.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item2.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item3.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item4.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div><div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item5.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item6.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div> 
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item7.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item8.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item9.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item10.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div><div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item11.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card kartu">
+              <a href=""><img src="image/konsultasi/item12.png" class="card-img-top " alt="..."></a>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <!-- ==============================akhir berita============================== -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Dokter Ahli Gizi dan Spesialis di <b>SEHATIN</b>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Kini kamu bisa tanya dokter online langsung dari website <b>DIETIN</b>. Layanan kesehatan online terpercaya di Indonesia ini memiliki daftar dokter pilihan terbaik di bidangnya masing-masing. Mulai dari dokter umum yang bisa membantu menjawab keluhan ringan, hingga dokter spesialis berpengalaman dan terpercaya Terdiri dari banyak jenis dokter spesialis. Mulai dari dokter ahli gizi, ahli kebidanan, spesialis penyakit dalam, THT, spesialis mata, hingga dokter spesialis anak. Semua dokter akan memberikan layanan kesehatan yang kamu butuhkan. untuk memberi jalan keluar atas masalah kesehatan yang lebih berat. Jangan tunggu hingga parah, langsung konsultasikan kondisi kesehatan kamu agar bisa segera ditangani oleh yang berpengalaman hanya di <b>DIETIN</b>!</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Mengapa Pilih Tanya Dokter <b>SEHATIN</b>?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Memilih Tanya Dokter <b>DIETIN</b> akan mempertemukan kamu dengan tenaga medis profesional secara cepat. Tidak perlu repot mencari dokter terdekat dan harus keluar rumah. <b>DIETIN</b> memastikan kamu mendapatkan pelayanan terbaik dari tim dokter spesialis di Indonesia yang terhubung langsung dari halaman website <b>DIETIN</b>.
+              Fasilitas ini bisa kamu gunakan untuk menjawab pelbagai masalah kesehatan yang sering dialami seperti Gejala tipes, Anemia, dan Hepatitis. Selain itu kamu juga bisa memastikan kondisi kesehatan kamu yang berkaitan dengan organ penting seperti kondisi pneumonia dan bronkitis di paru-paru. Masalah kesehatan yang kerap kali jadi pertanyaan misalnya masalah kista dan kehamilan bagi wanita, juga kesehatan keluarga kamu yang berkaitan dengan gejala usus buntu, Asam lambung, hingga batu ginjal.
+              Kamu bisa melakukan konsultasi dan diskusi kesehatan dengan dokter dan psikolog, menanyakan tips diet, rekomendasi obat, rujukan ke rumah sakit, terapi, hingga rekomendasi gaya hidup yang baik sebagai upaya pencegahan terhadap penyakit maupun kondisi kesehatan lainnya. <br>
+              <b>1. Memiliki dokter berpengalaman di seluruh Indonesia</b><br>
+              Dokter Online Halodoc bukanlah praktisi kesehatan sembarangan. Kamu bisa terhubung langsung dengan cepat dan mudah, serta tidak perlu meragukan kualitas konsultasi dan penanganan yang ditawarkan. <br>
+              <b>2. Privasi kamu tetap terjaga</b><br>
+              Tak perlu khawatir, semua percakapan dan diagnosis kesehatanmu dengan dokter di Halodoc akan terjaga keprivasiannya. <br>
+              <b>3. Bekerja sebagai layanan kesehatan online terbaik dan terpercaya di Indonesia</b><br>
+              Tidak sebatas tanya dokter saja, Halodoc juga menyajikan untukmu berbagai artikel informasi kesehatan dan berita kesehatan terkini. Ada banyak kategori kesehatan untuk berita terkini, tips dan rekomendasi, hingga pengetahuan umum yang pastinya bermanfaat agar kamu bisa lebih waspada dan peduli terhadap kesehatan diri sendiri maupun keluarga tercinta.
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Cara Menghubungi Dokter Online
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Konsultasi dengan dokter Halodoc secara online bisa dilakukan dengan cepat. Hanya dengan tiga langkah mudah kamu bisa terhubung dengan dokter yang kamu butuhkan. Ada dokter spesialis saraf, spesialis gigi, hingga spesialis bedah yang bisa kamu hubungi 24 jam. <br>
+              <b>1. Langkah pertama:</b><br>
+              Pilih dari dokter-dokter terbaik yang tersedia, dan kirim permintaan untuk berbicara sesuai dengan kebutuhan atau keluhan kesehatanmu. <br>
+
+              <b>2. Langkah kedua:</b><br>
+              Tunggu dokter. Dokter akan menyetujui permintaan kamu (biasanya dalam satu menit). <br>
+
+              <b>3. Langkah terakhir:</b><br>
+              Bicara dengan dokter. Saat kamu telah terhubung dengan dokter, silahkan jelaskan kondisi kamu dengan tenang dan jelas dengan tanya dokter halodoc.
+
+              Tidak perlu khawatir, semua percakapan dan diagnosis kesehatanmu dengan dokter di Halodoc akan terjaga Meski dilakukan secara online, dapat dipastikan saat kamu Chat dengan dokter di Halodoc dapat dipastikan keluhan dan diskusi kesehatan kamu terjaga kerahasiaannya.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer Started -->
+       <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: 20%;">
+                            <h1 style="margin-left: -50%"><a class="navbar-brand font-weight-bold ls-2"><img src="image/logo.png" alt=""></a></i></h1> 
+                            <ul>
+                                <p>Follow kami di</p>
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-instagram"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6" >
+                        <div class="footer-content" style="margin-left: -10%">
+                            <h2>Map Site</h2>
+                            <ol style="margin-left: -5%">
+                                <li><a href="https://www.healthycarejournal.com/okinawa-flat-belly-tonic-review"></i>Syarat dan Ketentuan</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"></i>Promo</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-sayur-dan-buah-tanpa-nasi/"></i>Karir</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-ala-artis/"></i>Media</a></li>
+                                <li><a href="https://tipsdietsmart.com/diet-golongan-darah/"></iC>Corporate Partnership</a></li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: -30%">
+                            <h2>Hubungi Kami</h2>
+                            <p>Jl. Ring Road Utara, Univ Amikom</p>
+                            <p>Condong Catur, Depok, Yogyakarta</p>
+                            <p><b>telp    :</b> 021-92918399</p>
+                            <p><b>email :</b> sehatin@gmail.com</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="footer-content" style="margin-left: -25%">
+                            <h2>News Letters</h2>
+                            <p class="text-white" style="line-height: 18px;">kirim kritik dan saran anda agar kami menjadi lebih baik.</p>
+                            <div class="form-group">
+                                <input class="form-control mt-2" role="" name="email" type="email" placeholder="Pesan">
+                                <i class="fal fa-paper-plane" style="background:#0e2e06; "></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <div class="container">
+                    <div class="copy-right-card">
+                        © 2021 SEHATIN Technology informatic.
+                    </div> 
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <!-- <script type="text/javascript" src="js/login.js"></script> -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  
+      <script>
+          var firebaseConfig = {
+      apiKey: "AIzaSyB9DA0RXOOIxPL3a0uN0ayF1YVm2K8FY6w",
+      authDomain: "weblogin-e9077.firebaseapp.com",
+      projectId: "weblogin-e9077",
+      storageBucket: "weblogin-e9077.appspot.com",
+      messagingSenderId: "410059547561",
+      appId: "1:410059547561:web:d71f778068472f49e25ab8",
+      measurementId: "G-5BREP594Q0"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+      </script>
+      
+    <script src="js/login2.js"></script>
+  </body>
+</html>
